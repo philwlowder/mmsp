@@ -1,0 +1,761 @@
+/* Body text */
+/* bootstrap menu colors */
+/* menu link color */
+/* button color */
+/* header_gradient  */
+/* footer/footer box links */
+/* ----------- */
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0;
+  }
+}
+.navbar {
+  font-size: 100%;
+}
+
+.navbar-brand {
+  float: left;
+  font-size: 160%;
+  padding-top: 15px;
+  padding-left: 50px;
+  margin-right: 25px;
+}
+
+.dropdown-menu {
+  font-size: 100%;
+}
+
+ul.nav.navbar-nav {
+  margin-left: 0;
+}
+
+.navbar-header {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.navbar-toggle {
+  margin-right: 75px;
+}
+
+#site_title {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#site_title h1 {
+  font-weight: 300;
+  font-size: 225%;
+  width: 100%;
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+
+#site_title img {
+  float: none;
+  margin-right: 0;
+}
+
+#site_title p {
+  font-weight: 300;
+  font-size: 125%;
+  margin-top: 10px;
+  margin-left: 250px;
+}
+
+@media (max-width: 1200px) {
+  #site_title h1 {
+    font-size: 225%;
+    width: 90%;
+  }
+}
+@media (max-width: 992px) {
+  #site_title h1 {
+    font-size: 200%;
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  #site_title h1 {
+    width: 90%;
+    font-size: 175%;
+  }
+}
+@media (max-width: 480px) {
+  #site_title h1 {
+    font-size: 125%;
+    width: 90%;
+  }
+}
+.fb-like {
+  margin: 50px 10px 75px 15px;
+  float: left;
+  clear: left;
+  width: 300;
+}
+
+.fb_box img {
+  float: left;
+  clear: right;
+  margin-right: 10px;
+}
+
+.fb_box .fb_link {
+  float: left;
+  clear: right;
+  margin-right: 10px;
+}
+
+.fb_box p {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.fb_box {
+  width: 100%;
+  height: 75px;
+  margin-bottom: 25px;
+}
+
+.fb_container {
+  width: 75%;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.archive_notice {
+  position: relative;
+  z-index: 5000;
+  opacity: .2;
+  width: 100%;
+  height: auto;
+}
+
+.jumboimg img {
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+}
+
+.caption {
+  font-size: 12px;
+  float: left;
+  width: 90%;
+  clear: both;
+  caption-side: bottom;
+  padding-bottom: 10px;
+  line-height: 1.5;
+}
+
+.thin_frame {
+  padding: 5px;
+  border: 1px solid #000000;
+}
+
+.featured_caption {
+  margin-top: 25px;
+  width: 75%;
+}
+
+.responsive_picture {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0;
+}
+
+.responsive_picture img {
+  max-width: 100%;
+  height: auto;
+  padding: 5px;
+  border: 1px solid #000000;
+}
+
+.responsive_picture iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+.picture img {
+  border: 1px solid #000000;
+  padding: 5px 5px 5px 5px;
+}
+
+.picture p {
+  margin-top: 5px;
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.picture {
+  margin-top: 5px;
+  font-size: 12px;
+  display: table;
+}
+
+.picture_left {
+  margin-right: 20px;
+  float: left;
+}
+
+.picture_right {
+  display: table;
+  margin-left: 20px;
+  margin-right: 30px;
+  float: right;
+}
+
+.clear_left {
+  clear: left;
+}
+
+.clear_right {
+  clear: right;
+}
+
+.clear_both {
+  clear: both;
+}
+
+.picture_right p {
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.picture_left p {
+  padding-right: 15px;
+  font-size: 12px;
+}
+
+.right {
+  margin: 0 20px 0 20px;
+  float: right;
+}
+
+.left {
+  margin: 0 20px 0 0;
+  float: left;
+}
+
+/* Prettier Links */
+/* # Author */
+/* [MRMRS](http://mrmrs.cc "Adam Morse - Designer + Developer in SF") */
+a {
+  transition: color 0.3s ease-in-out;
+  outline: none;
+}
+
+a:link {
+  color: #0074d9;
+  outline: none;
+}
+
+a:visited {
+  color: #b10dc9;
+}
+
+a:hover {
+  color: #7fdbff;
+  outline: none;
+}
+
+a:active {
+  color: #ffffff;
+  outline: none;
+}
+
+#footer {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  min-height: 250px;
+  background: #3B3C45;
+  background: linear-gradient(top, #4C4E5A 0%, #2c2d33 100%);
+}
+
+#footer_box {
+  margin: 0;
+  margin-left: 25px;
+  max-width: 1200px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  color: #fff;
+}
+
+.foot_link a:link {
+  color: #c2c2c2;
+  text-decoration: none;
+}
+
+.foot_link a:visited {
+  color: #f5b057;
+  text-decoration: none;
+}
+
+.foot_link a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.foot_link a:active {
+  color: #fac581;
+}
+
+dl.plain {
+  margin-top: 25px;
+}
+
+.plain dt {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 5px;
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.plain dd {
+  font-size: 90%;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-left: 0;
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.footer_column_title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.footer_column p {
+  font-size: 90%;
+  color: #fff;
+  line-height: 1.3;
+  color: #c2c2c2;
+}
+
+.footer_column :hover {
+  background-color: #3B5998;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+
+Copyright (c) 2015 Daniel Eden
+*/
+.animated {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  animation-duration: 2s;
+}
+
+.animated.bounceIn,
+.animated.bounceOut {
+  animation-duration: .75s;
+}
+
+.animated.flipOutX,
+.animated.flipOutY {
+  animation-duration: .75s;
+}
+
+.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom;
+}
+
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -30px, 0);
+  }
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -15px, 0);
+  }
+  90% {
+    transform: translate3d(0, -4px, 0);
+  }
+}
+@-webkit-keyframes shake {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+@keyframes shake {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+@-webkit-keyframes wobble {
+  from {
+    -webkit-transform: none;
+    transform: none;
+  }
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes wobble {
+  from {
+    -webkit-transform: none;
+    transform: none;
+  }
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.wobble {
+  -webkit-animation-name: wobble;
+  animation-name: wobble;
+}
+
+/*!
+ * Yamm!3 - Yet another megamenu for Bootstrap 3
+ * http://geedmo.github.com/yamm3
+ * 
+ * @geedmo - Licensed under the MIT license
+ */
+.yamm .nav,
+.yamm .collapse,
+.yamm .dropup,
+.yamm .dropdown {
+  position: static;
+}
+
+.yamm .container {
+  position: relative;
+}
+
+.yamm .dropdown-menu {
+  left: auto;
+}
+
+.yamm .yamm-content {
+  padding: 10px;
+}
+
+.yamm .dropdown.yamm-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+}
+
+/* menu styes */
+.list-unstyled,
+.list-unstyled ul {
+  min-width: 150px;
+}
+
+.yamm-content li {
+  margin-top: 15px;
+}
+
+.xlspace_top {
+  margin-top: 100px;
+}
+
+.sspace_top {
+  margin-top: 15px;
+}
+
+.space_top {
+  margin-top: 25px;
+}
+
+.lspace_top {
+  margin-top: 50px;
+}
+
+.lspace_bottom {
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #30353B;
+  font-size: 16px;
+  font-weight: 400;
+  background-image: url("../media/png/subtle_freckles.png");
+  background-repeat: repeat;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.btn {
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 8px 14px;
+}
+
+.content {
+  max-width: 1200px;
+  padding-right: 0;
+  margin-left: 30px;
+  margin-top: 25px;
+  margin-right: 20px;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.alert_box {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.front_rightside {
+  margin-top: 0;
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+.rightside {
+  margin-top: 0;
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+.frontpage_content_title {
+  width: 100%;
+  font-size: 150%;
+  font-weight: 300;
+  margin-bottom: 50px;
+  line-height: 1.1;
+}
+
+.content_title {
+  margin-left: 10px;
+  width: 100%;
+  font-size: 190%;
+  text-align: left;
+  font-weight: 400;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  line-height: 1.1;
+  border: 0 solid black;
+}
+
+.content-sub-title {
+  width: 80%;
+  font-size: 112%;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  text-align: left;
+}
+
+.content p {
+  width: 95%;
+  color: #444;
+  margin-bottom: 12px;
+  margin-left: 15px;
+}
+
+.signature {
+  float: left;
+  font-size: 114%;
+  width: 100%;
+  margin-left: 15px;
+  padding-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.nojustify {
+  text-justify: none;
+}
+
+.nowrap {
+  height: auto;
+  width: 100%;
+}
+
+.section {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.note {
+  margin-left: 0;
+  margin-bottom: 50px;
+  width: 90%;
+  padding-top: 0;
+}
+
+.banner_caption {
+  font-size: 75%;
+  margin-left: 30px;
+}
+
+.post {
+  margin-bottom: 25px;
+  width: 400px;
+}
+
+h1, .h1 {
+  margin: 10px;
+  margin-right: 20px;
+  font-size: 190%;
+  line-height: 1.1;
+}
+
+h2, .h2 {
+  font-size: 125%;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.post p {
+  font-size: 100%;
+}
+
+.unjust p {
+  hyphens: auto;
+  color: #444;
+  font-size: 94%;
+  line-height: 22px;
+}
+
+p {
+  hyphens: auto;
+  color: #444;
+  font-size: 100%;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.remove_indent li {
+  margin-top: 15px;
+  width: 90%;
+}
+
+.remove_indent {
+  padding: 0;
+  list-style-type: square;
+  list-style: square inside;
+}
+
+.related_sites {
+  font-size: 125px;
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
+
+.recent_post {
+  padding-bottom: 50px;
+}
+
+ul:before {
+  content: attr(data-header);
+  font-weight: 400;
+  margin-left: 0;
+}
+
+dl.document {
+  margin-top: 0;
+}
+
+.document dt {
+  color: #000;
+  font-size: 140%;
+  font-weight: 400;
+  margin-top: 5px;
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.document dd {
+  font-size: 114%;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-left: 0;
+  list-style-type: none;
+  list-style-position: inside;
+}

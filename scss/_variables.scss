@@ -1,0 +1,56 @@
+
+$link_grey: #c2c2c2;
+$soft-black: #3B3C45;
+$light_black: #4C4E5A;
+$dark_black: #2c2d33;
+$mod_black: #30353B;
+
+$med_clay: #f5b057;
+$dark_clay: #b8915f;
+$light_clay: #fac581;
+
+$link_color: #0074d9;
+$link_visited_color: #b10dc9;
+$link_hover_color: #7fdbff;
+$link_active_color: #ffffff;
+
+$theme_light: $light_clay;
+$theme_dark: $dark_clay;
+
+/* Body text */
+
+$body_text: $mod_black;
+
+/* bootstrap menu colors */
+
+$bs_menu_background: $mod_black;
+$bs_menu_border: $light_black;
+$bs_menu_text_color: #ffffff;
+$bs_menu_text_hover_color: $light_clay;
+$bs_menu_text_visited_color: $link_grey;
+
+/* menu link color */
+
+$menu_active_page_color: $med_clay;
+
+/* button color */
+
+$button_background_color: $med_clay;
+$button_border_color: $med_clay;
+$button_text_color: $dark_black;
+$button_hover_color: $light_clay;
+
+/* header_gradient  */
+
+$top_header: $light_clay;
+$bottom_header: $med_clay;
+
+
+/* footer/footer box links */
+
+$footer_link: $link_grey;
+$footer_visited: $med_clay;
+$footer_hover: #ffffff;
+$footer_active: $light_clay;
+
+/* ----------- */

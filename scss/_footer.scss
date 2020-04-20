@@ -1,0 +1,80 @@
+
+#footer {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  min-height: 250px;
+  background: $soft-black;
+  background: linear-gradient(top, $light-black 0%, #2c2d33 100%);
+}
+
+#footer_box {
+  margin: 0;
+  margin-left: 25px;
+  max-width: 1200px;
+  
+  padding-left: 25px;
+  padding-bottom: 25px;
+  color: #fff;
+}
+
+.foot_link a:link{
+  color: $footer_link;
+  text-decoration: none;
+}
+
+.foot_link a:visited {
+  color: $footer_visited; 
+  text-decoration: none;
+}
+
+.foot_link a:hover{
+  color: $footer_hover;
+  text-decoration: underline;
+  }
+
+.foot_link a:active {
+  color: $footer_active;
+  }
+
+
+dl.plain {
+  margin-top: 25px;
+  }
+
+.plain dt {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 5px;
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.plain dd {
+  font-size: 90%;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-left: 0;
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+
+.footer_column_title {
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.footer_column p {
+font-size: 90%;
+color: #fff;
+line-height: 1.3;
+color: $link_grey;
+}
+
+.footer_column :hover {
+background-color: #3B5998;
+-webkit-border-radius: 4px 4px 4px 4px;
+border-radius: 4px 4px 4px 4px;
+}

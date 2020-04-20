@@ -1,0 +1,35 @@
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0;
+  }
+}
+
+.navbar {
+ font-size: 100%;
+ }
+
+.navbar-brand {
+  float: left;
+	font-size: 160%;
+	padding-top: 15px;
+	padding-left: 50px;
+	margin-right: 25px;
+}
+
+.dropdown-menu {
+    font-size: 100%;
+}
+
+ul.nav.navbar-nav {
+  margin-left: 0;
+}
+
+.navbar-header {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.navbar-toggle {
+    margin-right: 75px;
+}

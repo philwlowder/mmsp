@@ -1,0 +1,28 @@
+
+/* Prettier Links */
+/* # Author */
+/* [MRMRS](http://mrmrs.cc "Adam Morse - Designer + Developer in SF") */
+
+a { 
+  transition: color 0.3s ease-in-out;
+  outline: none;
+}
+
+a:link {
+  color: $link_color; 
+  outline: none;
+  }
+  
+a:visited { 
+color: $link_visited_color; 
+}
+
+a:hover { 
+color: $link_hover_color; 
+outline: none; 
+}
+
+a:active { 
+  color: $link_active_color; 
+  outline: none; }
+ 

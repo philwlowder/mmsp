@@ -1,0 +1,113 @@
+
+# ------------------------------------------------------------------------------
+# secure htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+# ------------------------------------------------------------------------------
+<IfModule dir_module>
+DirectoryIndex index.html
+</IfModule>
+
+Options +FollowSymLinks
+
+#-----------------------------------
+
+AddDefaultCharset UTF-8
+
+# ------------------------------------------------------------------------------
+# | File access |
+# ------------------------------------------------------------------------------
+# Block access to directories without a default document.
+# Usually you should leave this uncommented because you shouldn't allow anyone
+# to surf through every directory on your server (which may includes rather
+# private places like the CMS's directories).
+
+<IfModule mod_autoindex.c>
+    #Options -Indexes
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
+
+ErrorDocument 404 /404page.html
+
+# ------------------------------------------------------------------------------
+
+#https://css-tricks.com/snippets/htaccess/active-gzip-compression/
+
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>
+# END GZIP
+
+
+# ----------------------------------------------------------------------
+# Expires headers (for better cache control)
+# ----------------------------------------------------------------------
+# https://gtmetrix.com/add-expires-headers.html
+
+
+<IfModule mod_expires.c>
+# Enable expirations
+ExpiresActive On 
+ExpiresDefault "access plus 1 month"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/jpg "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType text/php "access plus 1 day"
+ExpiresByType text/html "access plus 60 minutes"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+
+<Limit GET POST PUT>
+order allow,deny
+deny from 173.189.35.216
+deny from 31.184.236.65
+deny from 46.172.237.171 
+deny from 62.210.124.138
+deny from 86.123.242.40
+deny from 86.123.246.48
+deny from 90.170.160.61
+deny from 93.190.142.201
+deny from 133.130.98.204
+deny from 178.73.193.170
+deny from 188.165.233.228
+deny from 193.189.116.194
+deny from 195.154.211.220
+</Limit>
+
+# ------------------------------------------------------------------------------
+
+# http://www.blogtips.org/web-crawlers-love-the-good-but-kill-the-bad-and-the-ugly/
+# block bad bots with a 403
+SetEnvIfNoCase User-Agent "Twitterbot" bad_bot
+SetEnvIfNoCase User-Agent "Baiduspider" bad_bot
+SetEnvIfNoCase User-Agent "MetaURI" bad_bot
+SetEnvIfNoCase User-Agent "mediawords" bad_bot
+SetEnvIfNoCase User-Agent "FlipboardProxy" bad_bot
+SetEnvIfNoCase User-Agent "TurnitinBot" bad_bot
+SetEnvIfNoCase User-Agent "Pinterest" bad_bot
+SetEnvIfNoCase User-Agent "Tumblr" bad_bot
+SetEnvIfNoCase User-Agent "Mail.RU_Bot/2.0" bad_bot
+SetEnvIfNoCase User-Agent "SeznamBot/3.2;" bad_bot
+SetEnvIfNoCase User-Agent "WikiDo/1.1" bad_bot
+SetEnvIfNoCase User-Agent "AhrefsBot/5.0" bad_bot
+SetEnvIfNoCase User-Agent "spbot/4.4.2" bad_bot
+SetEnvIfNoCase User-Agent "BLEXBot/1.0" bad_bot
+SetEnvIfNoCase User-Agent "SemrushBot" bad_bot
+SetEnvIfNoCase User-Agent "Sogou web spider/4.0" bad_bot
+SetEnvIfNoCase User-Agent "Yahoo! Slurp" bad_bot
+
+<Limit GET POST HEAD>
+  Order Allow,Deny
+  Allow from all
+  Deny from env=bad_bot
+</Limit>
